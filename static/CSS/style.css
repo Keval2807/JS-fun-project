@@ -1,0 +1,136 @@
+h2{
+    margin-bottom: 10px;
+}
+
+.container-1, .container-2, .container-3, .container-4, .container-5, .container-6{
+    border: 3px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, 
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Chal1enge 1 */
+.flex-box-container-1 div{
+    display: flex;
+    align-items: center;
+}
+
+/* Chal1enge 2 */
+.flex-box-container-2 img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.9);
+}
+
+/* Chal1enge 3 */
+.container-3{
+    background: url(https://i.pinimg.com/originals/3c/8f/12/3c8f12b0606ad428cacccc09fd98246c.jpg);
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(0, 18, 117, 0.7);
+    cursor: pointer;
+}
+
+/* Chal1enge 5 */
+.container-5{
+    background: url(https://mk0gamesnetentcxytko.kinstacdn.com/wp-content/uploads/2018/09/blackjack_background.jpg) center no-repeat;
+    color: #ffffff;
+}
+
+.flex-blackjack-row-1{
+    border-top: 3px solid black;
+}
+
+.flex-blackjack-row-1 div{
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div{
+    cursor: pointer;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 2px solid black;
+    color: #f5f5f5;
+}
+
+/* Chal1enge 6 */
+.flex-calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: #091912;
+}
+
+.calculator{
+    position: relative;
+    display: grid;
+}
+
+.calculator .value{
+    grid-column: span 4;
+    height: 70px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.calculator span{
+    display: grid;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    background: #0c2835;
+    place-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.calculator span:active{
+    background: #74ff3b;
+    color: #111;
+}
+
+.calculator span.clear{
+    grid-column: span 2;
+    width: 120px;
+    background: #ff3077;
+    color: #fff;
+}
+
+.calculator span.plus{
+    grid-row: span 2;
+    height: 120px;
+}
+
+.calculator span.equal{
+    background: #03b1ff;
+    color: #fff;
+}
+
+
+
+
+
